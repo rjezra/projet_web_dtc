@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="containerlogin">
+    <section>
+      <div class="row d-flex justify-content-center align-items-center h-200 ">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="assets/img/draw2.webp" class="img-fluid" alt="Sample image">
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form id="loginForm" action="" method="post">
+            <div class="form-outline mb-4">
+              <label class="form-label" for="mail">Mail</label>
+              <input type="email" id="mail" class="form-control form-control-lg" name="pseudo" placeholder="Entrer votre Mail" required />
+            </div>
+            <div class="form-outline mb-3">
+              <label class="form-label" for="password">Mots de passe</label>
+              <input type="password" id="password" name="mdp" class="form-control form-control-lg" placeholder="Entrer votre Mots de passe" required />
+            </div>
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button type="submit" name="submit" id="submit" class="btn btn-primary btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem;">Se connecter</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/index.js"></script>
+</body>
+</html>

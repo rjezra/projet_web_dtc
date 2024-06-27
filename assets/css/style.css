@@ -1,0 +1,23 @@
+.banner {
+    background: url('../img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-text {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+.sed1{
+  background: url('../img/02.jpg');
+  width: 100%;
+}
+.img1 img{
+  width: 530px;
+  height: 300px;
+}
